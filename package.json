@@ -1,0 +1,22 @@
+{
+  "name": "yard-sale",
+  "version": "1.0.0",
+  "description": "Platzi Project",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "yard-sale"
+  },
+  "keywords": [
+    "HTML",
+    "CSS",
+    "SASS",
+    "JS",
+    "React"
+  ],
+  "author": "Felipe Bucherenick",
+  "license": "ISC"
+}
