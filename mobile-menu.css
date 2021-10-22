@@ -1,0 +1,61 @@
+:root {
+  --very-light-pink: #c7c7c7;
+  --white: #ffffff;
+  --text-input-field: #f7f7f7;
+  --black: #000000;
+  --hospital-green: #acd9b2;
+  --dark: #232830;
+  --sm: 1.4rem;
+  --md: 1.6rem;
+  --lg: 1.8rem;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: 'Quicksand', sans-serif;
+}
+
+.menu-container {
+  padding: 20px;
+  font-size: var(--md);
+}
+
+.menu-container ul {
+  list-style: none;
+}
+
+.menu-container a {
+  display: inline-block;
+  text-decoration: none;
+  margin-bottom: 42px;
+  color: var(--black);
+  font-weight: bold;
+}
+
+.categories {
+  margin-bottom: 36px;
+  border-bottom: 1px solid var(--very-light-pink);
+}
+
+.my-orders {
+  margin-bottom: 86px;
+}
+.sign-out-container a {
+  display: inline;
+  font-size: var(--sm);
+  font-weight: 300;
+}
+
+.sign-out-container .sign-out {
+  color: var(--hospital-green);
+  font-weight: bold;
+}
