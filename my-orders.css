@@ -1,0 +1,91 @@
+:root {
+  --very-light-pink: #c7c7c7;
+  --white: #ffffff;
+  --text-input-field: #f7f7f7;
+  --black: #000000;
+  --hospital-green: #acd9b2;
+  --dark: #232830;
+  --sm: 1.4rem;
+  --md: 1.6rem;
+  --lg: 1.8rem;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: 'Quicksand', sans-serif;
+}
+
+.my-orders {
+  display: grid;
+  width: 100%;
+  height: 100vh;
+  justify-items: center;
+}
+
+.my-orders-container {
+  display: flex;
+  flex-direction: column;
+  width: 350px;
+  margin-top: 60px;
+}
+
+@media (min-width: 640px) {
+  .my-orders-container {
+    width: 450px;
+    margin-top: 140px;
+  }
+}
+
+.title {
+  display: none;
+  font-size: var(--lg);
+  font-weight: bold;
+}
+
+@media (min-width: 640px) {
+  .title {
+    display: block;
+    margin-bottom: 60px;
+  }
+}
+
+.my-orders-container p {
+  font-size: var(--md);
+  color: var(--black);
+  font-weight: bold;
+}
+
+.my-orders_item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  margin-bottom: 30px;
+}
+
+.item-details {
+  display: flex;
+  flex-direction: column;
+}
+
+.item-price {
+  display: flex;
+}
+
+.item-price p {
+  margin-right: 20px;
+}
+
+.item-details .item-amount {
+  font-size: var(--sm);
+  color: var(--very-light-pink);
+}

@@ -1,0 +1,112 @@
+:root {
+  --very-light-pink: #c7c7c7;
+  --white: #ffffff;
+  --text-input-field: #f7f7f7;
+  --black: #000000;
+  --hospital-green: #acd9b2;
+  --dark: #232830;
+  --sm: 1.4rem;
+  --md: 1.6rem;
+  --lg: 1.8rem;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: 'Quicksand', sans-serif;
+}
+
+.my-order {
+  display: grid;
+  width: 100%;
+  height: 100vh;
+  place-content: center;
+}
+
+.my-order-container {
+  display: flex;
+  flex-direction: column;
+  width: 350px;
+}
+
+@media (min-width: 640px) {
+  .my-order-container {
+    width: 450px;
+    margin-top: 140px;
+  }
+}
+
+.title {
+  display: none;
+  font-size: var(--lg);
+  font-weight: bold;
+}
+
+@media (min-width: 640px) {
+  .title {
+    display: block;
+    margin-bottom: 40px;
+  }
+}
+
+.my-order-container p {
+  font-size: var(--sm);
+  color: var(--very-light-pink);
+}
+.my-order_total {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: var(--text-input-field);
+  height: 80px;
+  margin-bottom: 20px;
+  border-radius: 10px;
+  padding: 10px;
+}
+.my-order_total .total-date {
+  font-size: var(--md);
+  font-weight: bold;
+  color: var(--black);
+}
+
+.my-order_total .total-price {
+  font-size: var(--md);
+  font-weight: bold;
+  color: var(--black);
+}
+
+.my-order_item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  margin-bottom: 30px;
+}
+
+.item-details {
+  display: flex;
+  align-items: center;
+}
+
+.my-order_item img {
+  width: 80px;
+  height: 80px;
+  object-fit: cover;
+  border-radius: 20px;
+  margin-right: 10px;
+}
+
+.my-order_item .item-price {
+  margin-right: 10px;
+  font-size: var(--md);
+  font-weight: bold;
+  color: var(--black);
+}
