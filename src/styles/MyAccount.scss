@@ -1,29 +1,3 @@
-:root {
-  --very-light-pink: #c7c7c7;
-  --white: #ffffff;
-  --text-input-field: #f7f7f7;
-  --black: #000000;
-  --hospital-green: #acd9b2;
-  --dark: #232830;
-  --sm: 1.4rem;
-  --md: 1.6rem;
-  --lg: 1.8rem;
-}
-
-* {
-  box-sizing: border-box;
-  margin: 0;
-  padding: 0;
-}
-
-html {
-  font-size: 62.5%;
-}
-
-body {
-  font-family: 'Quicksand', sans-serif;
-}
-
 .create-account {
   display: grid;
   position: relative;
@@ -69,36 +43,32 @@ body {
   margin-bottom: 4px;
 }
 
-.input {
-  background-color: var(--text-input-field);
-  border: none;
-  border-radius: 8px;
-  height: 32px;
+.value {
   font-size: var(--md);
-  padding: 6px;
-  margin-bottom: 24px;
+  color: var(--very-light-pink);
+  margin: 8px 0 32px 0;
 }
 
-.primary-button {
+.secondary-button {
   width: 100%;
   height: 50px;
-  background-color: var(--hospital-green);
-  color: var(--white);
+  background-color: var(--white);
+  color: var(--hospital-green);
   font-size: var(--md);
   font-weight: bold;
-  border: none;
+  border: 2px solid var(--hospital-green);
   border-radius: 8px;
   cursor: pointer;
 }
 
-.create-button {
+.edit-button {
   position: absolute;
   bottom: 30px;
   width: 300px;
 }
 
 @media (min-width: 640px) {
-  .create-button {
+  .edit-button {
     bottom: 180px;
   }
 }
