@@ -3,7 +3,7 @@ import '../styles/PasswordRecoverySentEmail.scss'
 
 const PasswordRecoverySentEmail = () => {
     return (
-        <div className="sent-mail">
+        <div className="PasswordRecoverySentEmail">
         <div className="sent-mail_container">
             <img src="./assets/logos/logo_yard_sale.svg" alt="Logo" className="logo"/>
             <h1 className="title">Email has been sent!</h1>

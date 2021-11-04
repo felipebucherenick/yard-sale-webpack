@@ -3,7 +3,7 @@ import '../styles/NewPassword.scss'
 
 const NewPassword = () => {
     return (
-        <div className="login">
+        <div className="NewPassword">
         <div className="form-container">
             <img src="./assets/logos/logo_yard_sale.svg" alt="Logo" className="logo"/>
             <h1 className="title">Create a new password</h1>

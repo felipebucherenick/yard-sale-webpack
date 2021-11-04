@@ -1,4 +1,4 @@
-nav {
+.Header {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -7,7 +7,7 @@ nav {
   border-bottom: 3px solid var(--text-input-field);
 }
 
-nav a {
+.Header a {
   font-size: var(--md);
   text-decoration: none;
   color: var(--very-light-pink);
