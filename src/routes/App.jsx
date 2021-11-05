@@ -1,16 +1,17 @@
 import React from 'react';
 import {BrowserRouter,Switch,Route} from 'react-router-dom';
-import Layout from '../containers/Layout';
-import Login from '../pages/Login';
-import Home from '../pages/Home';
-import NotFound from '../pages/NotFound';
-import PasswordRecoverySentEmail from '../pages/PasswordRecoverySentEmail';
-import MyOrder from '../pages/MyOrder';
-import NewPassword from '../pages/NewPassword';
-import CreateAccount from '../pages/CreateAccount';
-import MyOrders from '../pages/MyOrders';
-import MyAccount from '../pages/MyAccount'
-import '../styles/global.css';
+import Layout from '@containers/Layout';
+import Login from '@pages/Login';
+import Home from '@pages/Home';
+import NotFound from '@pages/NotFound';
+import PasswordRecovery from '@pages/PasswordRecovery';
+import PasswordRecoverySentEmail from '@pages/PasswordRecoverySentEmail';
+import MyOrder from '@pages/MyOrder';
+import NewPassword from '@pages/NewPassword';
+import CreateAccount from '@pages/CreateAccount';
+import MyOrders from '@pages/MyOrders';
+import MyAccount from '@pages/MyAccount'
+import '@styles/Global.scss';
 
 
 const App = () => {
@@ -26,6 +27,7 @@ const App = () => {
                 <Route exact path='/create-account' component={CreateAccount}/>
                 <Route exact path='/my-order' component={MyOrder}/>
                 <Route exact path='/new-password' component={NewPassword}/>
+                <Route exact path='/password-recovery' component={PasswordRecovery}/>
                 <Route exact path='/password-recovery-sent-email' component={PasswordRecoverySentEmail}/>
                 <Route path='*' component={NotFound}/>
             </Switch>
