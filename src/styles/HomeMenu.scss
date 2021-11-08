@@ -1,0 +1,35 @@
+@import '_vars';
+
+.HomeMenu {
+  position: absolute;
+  top: 52px;
+  right: 72px;
+  padding: 10px 26px;
+  color: var(--black);
+  box-shadow: 0 2px 4px 0 rgb(0 0 0 / 15%);
+  border-radius: 5px;
+}
+
+.HomeMenu a {
+  color: var(--black);
+  font-weight: bold;
+  margin: 0;
+}
+
+.HomeMenu li {
+  margin-bottom: 20px;
+  text-align: right;
+}
+.HomeMenu-list {
+  list-style: none;
+}
+
+.sign-out-container {
+  border-top: 2px solid var(--text-input-field);
+  padding-top: 20px;
+}
+
+.sign-out-container .sign-out {
+  color: var(--hospital-green);
+  font-size: var(--sm);
+}

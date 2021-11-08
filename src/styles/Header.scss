@@ -52,13 +52,27 @@
   align-items: center;
 }
 
+.email-container {
+  display: flex;
+  align-items: center;
+  margin-right: 20px;
+  cursor: pointer;
+}
+
 .email {
   display: none;
-  margin-right: 20px;
+  margin-right: 5px;
+  text-align: center;
 }
 
 @media (min-width: 640px) {
   .email {
     display: block;
   }
+}
+
+.down-arrow {
+  width: 8px;
+  height: 8px;
+  filter: invert(60%);
 }
