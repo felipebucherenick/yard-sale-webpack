@@ -1,4 +1,4 @@
-.cards-container {
+.ProductsList {
   display: grid;
   grid-template-columns: repeat(auto-fill, 140px);
   place-content: center;
@@ -6,7 +6,7 @@
 }
 
 @media (min-width: 640px) {
-  .cards-container {
+  .ProductsList {
     grid-template-columns: repeat(auto-fill, 240px);
   }
 }
