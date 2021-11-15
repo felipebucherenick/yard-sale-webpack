@@ -5,6 +5,13 @@ import '@styles/ShoppingCart.scss';
 
 const ShoppingCart = () => {
   const { state } = useContext(AppContext);
+
+  const sumTotal = () => {
+    const reducer = (accum, currentValue) => accum + currentValue.price;
+    const sum = state.cart.reduce(reducer, 0);
+    return sum;
+  };
+
   return (
     <div className="ShoppingCart">
       <section className="ShoppingCart-container">
@@ -15,7 +22,7 @@ const ShoppingCart = () => {
 
         <div className="ShoppingCart_total-details">
           <p>Total</p>
-          <p className="total">$500.00</p>
+          <p className="total">${sumTotal()}</p>
         </div>
         <button className="primary-button login-button">Checkout</button>
       </section>
