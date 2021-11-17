@@ -1,0 +1,21 @@
+.NavBarMobile {
+  display: none;
+}
+
+@media (min-width: 640px) {
+  .NavBarMobile {
+    display: block;
+  }
+}
+
+.NavBar ul {
+  display: flex;
+  align-items: center;
+  list-style: none;
+}
+.NavBar a:hover {
+  border: 2px solid var(--hospital-green);
+  border-radius: 12px;
+  padding: 5px 10px;
+  color: var(--hospital-green);
+}
