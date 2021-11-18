@@ -3,17 +3,15 @@ import Order from '../components/Order';
 import '@styles/MyOrders.scss';
 
 const MyOrders = () => {
-    return (
-        <div className="MyOrders">
-        <section className="my-orders-container">
+  return (
+    <div className="MyOrders">
+      <section className="my-orders-container">
+        <h1 className="MyOrders__title">My Orders</h1>
 
-            <h1 className="title">My Orders</h1>
-
-            <Order/>
-        
-        </section>
+        <Order />
+      </section>
     </div>
-    );
-}
+  );
+};
 
 export default MyOrders;

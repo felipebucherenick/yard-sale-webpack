@@ -1,11 +1,5 @@
-.NavBarMobile {
+.NavBar {
   display: none;
-}
-
-@media (min-width: 640px) {
-  .NavBarMobile {
-    display: block;
-  }
 }
 
 .NavBar ul {
@@ -18,4 +12,10 @@
   border-radius: 12px;
   padding: 5px 10px;
   color: var(--hospital-green);
+}
+
+@media (min-width: 640px) {
+  .NavBar {
+    display: block;
+  }
 }

@@ -1,10 +1,10 @@
 import React from 'react';
 
-import '@styles/NavBar.scss';
+import '@styles/NavBarMobile.scss';
 
-const NavBar = () => {
+const NavBarMobile = () => {
   return (
-    <div className="NavBar">
+    <div className="NavBarMobile">
       <ul>
         <li>
           <a href="/">All</a>
@@ -29,4 +29,4 @@ const NavBar = () => {
   );
 };
 
-export default NavBar;
+export default NavBarMobile;

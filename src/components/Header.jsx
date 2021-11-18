@@ -2,9 +2,10 @@ import React, { useState, useContext } from 'react';
 
 import AppContext from '@context/AppContext';
 
+import ShoppingCart from '@containers/ShoppingCart';
+import NavBar from '@components/NavBar';
 import Menu from '@components/Menu';
 import HomeMenu from '@components/HomeMenu';
-import ShoppingCart from '@containers/ShoppingCart';
 
 import iconMenu from '@icons/icon_menu.svg';
 import logo from '@logos/logo_yard_sale.svg';
@@ -12,7 +13,6 @@ import iconShopingCart from '@icons/icon_shopping_cart.svg';
 import downArrow from '@icons/down-arrow.png';
 
 import '@styles/Header.scss';
-import NavBar from './NavBar';
 
 const Header = () => {
   const [toggleMenu, setToggleMenu] = useState(false);

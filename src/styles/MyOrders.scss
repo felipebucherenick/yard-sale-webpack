@@ -19,14 +19,14 @@
   }
 }
 
-.title {
+.MyOrders__title {
   display: none;
   font-size: var(--lg);
   font-weight: bold;
 }
 
 @media (min-width: 640px) {
-  .title {
+  .MyOrders__title {
     display: block;
     margin-bottom: 60px;
   }
