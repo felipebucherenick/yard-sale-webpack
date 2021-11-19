@@ -5,7 +5,7 @@
   justify-items: center;
 }
 
-.my-orders-container {
+.MyOrders-container {
   display: flex;
   flex-direction: column;
   width: 350px;
@@ -13,7 +13,7 @@
 }
 
 @media (min-width: 640px) {
-  .my-orders-container {
+  .MyOrders-container {
     width: 450px;
     margin-top: 140px;
   }
@@ -32,7 +32,7 @@
   }
 }
 
-.my-orders-container p {
+.MyOrders-container p {
   font-size: var(--md);
   color: var(--black);
   font-weight: bold;

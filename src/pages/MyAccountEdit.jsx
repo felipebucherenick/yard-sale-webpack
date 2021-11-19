@@ -1,9 +1,9 @@
 import React from 'react';
-import '@styles/CreateAccount.scss';
+import '@styles/Account.scss';
 
 const CreateAccount = () => {
   return (
-    <div className="CreateAccount">
+    <div className="Account">
       <div className="form-container">
         <h1 className="title">My account</h1>
         <form action="" className="form">
@@ -20,7 +20,7 @@ const CreateAccount = () => {
           </label>
           <input id="password" type="password" className="input" placeholder="********" />
 
-          <input type="submit" className="primary-button create-button" value="Save" />
+          <input type="submit" className="primary-button account-button" value="Save" />
         </form>
       </div>
     </div>

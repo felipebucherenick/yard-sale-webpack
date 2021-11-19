@@ -5,14 +5,14 @@
   place-content: center;
 }
 
-.my-order-container {
+.MyOrder-container {
   display: flex;
   flex-direction: column;
   width: 350px;
 }
 
 @media (min-width: 640px) {
-  .my-order-container {
+  .MyOrder-container {
     width: 450px;
     margin-top: 140px;
   }
@@ -31,11 +31,11 @@
   }
 }
 
-.my-order-container p {
+.MyOrder-container p {
   font-size: var(--sm);
   color: var(--very-light-pink);
 }
-.my-order_total {
+.MyOrder_total {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -45,13 +45,13 @@
   border-radius: 10px;
   padding: 10px;
 }
-.my-order_total .total-date {
+.MyOrder_total .total-date {
   font-size: var(--md);
   font-weight: bold;
   color: var(--black);
 }
 
-.my-order_total .total-price {
+.MyOrder_total .total-price {
   font-size: var(--md);
   font-weight: bold;
   color: var(--black);
